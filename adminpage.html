@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin page</title>
+    
+    <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- boxicons link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="admin_body">
+
+    <section class="sidenav">
+        <div class="sidebar">
+            <div class="logo_content">
+                <div class="logo">
+                    <div class="logo_icon"><img src="images/logo.png" alt=""></div>
+                </div>
+                <i class='bx bx-menu' id="men-btn" ></i>
+            </div>
+            <ul class="sidenavigation">
+                <li>
+                    
+                    <a href="adminpage.html">
+                        <i class='bx bx-home'></i>
+                        <span class="link_name">home</span>
+                    </a>
+                        <span class="tooltip">home</span>
+                </li>
+            </ul>
+            <ul class="sidenavigation">
+                <li>
+                    
+                    <a href="#">
+                        <i class='bx bx-photo-album' ></i>
+                        <span class="link_name">gallery</span>
+                    </a>
+                        <span class="tooltip">gallery</span>
+                </li>
+            </ul>
+            <ul class="sidenavigation">
+                <li>
+                   
+                    <a href="#">
+                        <i class='bx bx-book-open' ></i>
+                        <span class="link_name">course list</span>
+                    </a>
+                        <span class="tooltip">course list</span>
+                </li>
+            </ul>
+            <ul class="sidenavigation">
+                <li>
+                    
+                    <a href="#">
+                        <i class='bx bx-child' ></i>
+                        <span class="link_name">alumni list</span>
+                    </a>
+                        <span class="tooltip">alumni list</span>
+                </li>
+            </ul>
+            <ul class="sidenavigation">
+                <li>
+                    
+                    <a href="#">
+                        <i class='bx bxs-business' ></i>
+                        <span class="link_name">jobs</span>
+                    </a>
+                        <span class="tooltip">jobs</span>
+                </li>
+            </ul>
+            <ul class="sidenavigation">
+                <li>
+                    
+                    <a href="#">
+                        <i class='bx bx-party' ></i>
+                        <span class="link_name">events</span>
+                    </a>
+                        <span class="tooltip">events</span>
+                </li>
+            </ul>
+            <ul class="sidenavigation">
+                <li>
+                    
+                    <a href="#">
+                        <i class='bx bx-user-circle' ></i>
+                        <span class="link_name">users</span>
+                    </a>
+                        <span class="tooltip">users</span>
+                </li>
+            </ul>
+            <ul class="sidenavigation">
+                <li>
+                    
+                    <a href="#">
+                        <i class='bx bx-cog' ></i>
+                        <span class="link_name">system settings</span>
+                    </a>
+                        <span class="tooltip">system settings</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="admin-content">
+        <div class="cont">
+            <h1>Welcome Back Admin!</h1>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    let btn = document.querySelector('#men-btn');
+    let sidebar = document.querySelector('.sidebar');
+
+    btn.onclick = function(){
+        sidebar.classList.toggle('active');
+} 
+</script>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
